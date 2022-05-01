@@ -45,9 +45,6 @@
                                         <buttonConfiguration key="configuration" style="gray" image="plus" catalog="system">
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="Iry-68-AtA" kind="show" identifier="addSegue" id="XiD-5M-nGw"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.30196079609999998" green="0.59215688710000003" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -72,6 +69,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Na-go-Reh"/>
+                    <connections>
+                        <segue destination="Iry-68-AtA" kind="show" identifier="addView" id="weQ-ze-VHh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,7 +162,7 @@
                                 <rect key="frame" x="20" y="142" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bOi-zR-ZrA"/>
-                                    <constraint firstAttribute="width" constant="374" id="hm0-S4-6HQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="hm0-S4-6HQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -189,8 +189,8 @@
                             <constraint firstItem="uLq-Xq-f74" firstAttribute="leading" secondItem="L0v-7l-pEv" secondAttribute="leading" constant="20" id="bh5-0d-mri"/>
                             <constraint firstItem="2Ud-0c-SEL" firstAttribute="centerX" secondItem="tg3-lp-GqE" secondAttribute="centerX" id="dQR-KY-6Fc"/>
                             <constraint firstItem="uLq-Xq-f74" firstAttribute="top" secondItem="2Ud-0c-SEL" secondAttribute="bottom" constant="63" id="sv0-gG-B4L"/>
-                            <constraint firstItem="2Ud-0c-SEL" firstAttribute="leading" secondItem="L0v-7l-pEv" secondAttribute="leading" constant="20" id="xkQ-Qe-VoK"/>
-                            <constraint firstItem="L0v-7l-pEv" firstAttribute="trailing" secondItem="2Ud-0c-SEL" secondAttribute="trailing" constant="20" id="yVa-IB-kni"/>
+                            <constraint firstItem="2Ud-0c-SEL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="L0v-7l-pEv" secondAttribute="leading" id="xkQ-Qe-VoK"/>
+                            <constraint firstItem="L0v-7l-pEv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2Ud-0c-SEL" secondAttribute="trailing" id="yVa-IB-kni"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VfJ-xr-IKb">
