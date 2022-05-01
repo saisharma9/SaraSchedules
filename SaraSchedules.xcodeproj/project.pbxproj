@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258B35066A892376FCF78FCA /* Pods_SaraSchedules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EC4B9C7319C26898F997CF /* Pods_SaraSchedules.framework */; };
+		3F487D2C281A20370079F20B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F487D2B281A20370079F20B /* Todo.swift */; };
+		3F71A4C3281DC9ED00888D32 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C2281DC9ED00888D32 /* AddViewController.swift */; };
+		3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C4281DCB3600888D32 /* ListViewController.swift */; };
+		3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */; };
+		3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */; };
+		3FC5B39527FFB52A002C57C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */; };
+		3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */; };
+		3FC5B39A27FFB52A002C57C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5B39827FFB52A002C57C5 /* Main.storyboard */; };
+		3FC5B39C27FFB52B002C57C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5B39B27FFB52B002C57C5 /* Assets.xcassets */; };
+		3FC5B39F27FFB52B002C57C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5B39D27FFB52B002C57C5 /* LaunchScreen.storyboard */; };
+		3FC5B3AA27FFB52B002C57C5 /* SaraSchedulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B3A927FFB52B002C57C5 /* SaraSchedulesTests.swift */; };
+		3FC5B3B427FFB52B002C57C5 /* SaraSchedulesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B3B327FFB52B002C57C5 /* SaraSchedulesUITests.swift */; };
+		3FC5B3B627FFB52B002C57C5 /* SaraSchedulesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B3B527FFB52B002C57C5 /* SaraSchedulesUITestsLaunchTests.swift */; };
+		6CEE7594793A7E9B04780751 /* Pods_SaraSchedules_SaraSchedulesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1ED7BE30C8F8B88CDAE27A /* Pods_SaraSchedules_SaraSchedulesUITests.framework */; };
+		B0042E92281B396C00A4E986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0042E91281B396C00A4E986 /* GoogleService-Info.plist */; };
+		B0042E93281B396C00A4E986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0042E91281B396C00A4E986 /* GoogleService-Info.plist */; };
+		B0042E94281B396C00A4E986 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0042E91281B396C00A4E986 /* GoogleService-Info.plist */; };
+		D618C6FF08CDD7605F82377F /* Pods_SaraSchedulesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05CCE433E68AF7034372DA2 /* Pods_SaraSchedulesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC5B3A627FFB52B002C57C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC5B38727FFB52A002C57C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC5B38E27FFB52A002C57C5;
+			remoteInfo = SaraSchedules;
+		};
+		3FC5B3B027FFB52B002C57C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC5B38727FFB52A002C57C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC5B38E27FFB52A002C57C5;
+			remoteInfo = SaraSchedules;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03846C06701A69D9DE8B056F /* Pods-SaraSchedulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedulesTests.debug.xcconfig"; path = "Target Support Files/Pods-SaraSchedulesTests/Pods-SaraSchedulesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15DD543589EFCEC46237BFC6 /* Pods-SaraSchedulesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedulesTests.release.xcconfig"; path = "Target Support Files/Pods-SaraSchedulesTests/Pods-SaraSchedulesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D1ED7BE30C8F8B88CDAE27A /* Pods_SaraSchedules_SaraSchedulesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraSchedules_SaraSchedulesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F487D2B281A20370079F20B /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		3F71A4C2281DC9ED00888D32 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3F71A4C4281DCB3600888D32 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3FC5B38F27FFB52A002C57C5 /* SaraSchedules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraSchedules.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FC5B39927FFB52A002C57C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC5B39B27FFB52B002C57C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC5B39E27FFB52B002C57C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC5B3A027FFB52B002C57C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC5B3A527FFB52B002C57C5 /* SaraSchedulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaraSchedulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC5B3A927FFB52B002C57C5 /* SaraSchedulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaraSchedulesTests.swift; sourceTree = "<group>"; };
+		3FC5B3AF27FFB52B002C57C5 /* SaraSchedulesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaraSchedulesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC5B3B327FFB52B002C57C5 /* SaraSchedulesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaraSchedulesUITests.swift; sourceTree = "<group>"; };
+		3FC5B3B527FFB52B002C57C5 /* SaraSchedulesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaraSchedulesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AB0768D7EB5D991B85EC4F5 /* Pods-SaraSchedules-SaraSchedulesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedules-SaraSchedulesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SaraSchedules-SaraSchedulesUITests/Pods-SaraSchedules-SaraSchedulesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A05CCE433E68AF7034372DA2 /* Pods_SaraSchedulesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraSchedulesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A9CADCDDE13CDC22B3659B /* Pods-SaraSchedules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedules.release.xcconfig"; path = "Target Support Files/Pods-SaraSchedules/Pods-SaraSchedules.release.xcconfig"; sourceTree = "<group>"; };
+		B0042E91281B396C00A4E986 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5EC4B9C7319C26898F997CF /* Pods_SaraSchedules.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraSchedules.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DCC266CB764B58AA26A7CD /* Pods-SaraSchedules-SaraSchedulesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedules-SaraSchedulesUITests.release.xcconfig"; path = "Target Support Files/Pods-SaraSchedules-SaraSchedulesUITests/Pods-SaraSchedules-SaraSchedulesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1CC561DD37DF883A39F503E /* Pods-SaraSchedules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedules.debug.xcconfig"; path = "Target Support Files/Pods-SaraSchedules/Pods-SaraSchedules.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC5B38C27FFB52A002C57C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258B35066A892376FCF78FCA /* Pods_SaraSchedules.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3A227FFB52B002C57C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D618C6FF08CDD7605F82377F /* Pods_SaraSchedulesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3AC27FFB52B002C57C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEE7594793A7E9B04780751 /* Pods_SaraSchedules_SaraSchedulesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D89CAAF6F0CB079940DD370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC561DD37DF883A39F503E /* Pods-SaraSchedules.debug.xcconfig */,
+				A8A9CADCDDE13CDC22B3659B /* Pods-SaraSchedules.release.xcconfig */,
+				6AB0768D7EB5D991B85EC4F5 /* Pods-SaraSchedules-SaraSchedulesUITests.debug.xcconfig */,
+				C9DCC266CB764B58AA26A7CD /* Pods-SaraSchedules-SaraSchedulesUITests.release.xcconfig */,
+				03846C06701A69D9DE8B056F /* Pods-SaraSchedulesTests.debug.xcconfig */,
+				15DD543589EFCEC46237BFC6 /* Pods-SaraSchedulesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E313FF2AD5F0986222F97B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC4B9C7319C26898F997CF /* Pods_SaraSchedules.framework */,
+				3D1ED7BE30C8F8B88CDAE27A /* Pods_SaraSchedules_SaraSchedulesUITests.framework */,
+				A05CCE433E68AF7034372DA2 /* Pods_SaraSchedulesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC5B38627FFB52A002C57C5 = {
+			isa = PBXGroup;
+			children = (
+				3FC5B39127FFB52A002C57C5 /* SaraSchedules */,
+				3FC5B3A827FFB52B002C57C5 /* SaraSchedulesTests */,
+				3FC5B3B227FFB52B002C57C5 /* SaraSchedulesUITests */,
+				3FC5B39027FFB52A002C57C5 /* Products */,
+				1D89CAAF6F0CB079940DD370 /* Pods */,
+				3E313FF2AD5F0986222F97B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC5B39027FFB52A002C57C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B38F27FFB52A002C57C5 /* SaraSchedules.app */,
+				3FC5B3A527FFB52B002C57C5 /* SaraSchedulesTests.xctest */,
+				3FC5B3AF27FFB52B002C57C5 /* SaraSchedulesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC5B39127FFB52A002C57C5 /* SaraSchedules */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */,
+				3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */,
+				3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */,
+				3FC5B39827FFB52A002C57C5 /* Main.storyboard */,
+				3FC5B39B27FFB52B002C57C5 /* Assets.xcassets */,
+				3FC5B39D27FFB52B002C57C5 /* LaunchScreen.storyboard */,
+				3FC5B3A027FFB52B002C57C5 /* Info.plist */,
+				3F487D2B281A20370079F20B /* Todo.swift */,
+				B0042E91281B396C00A4E986 /* GoogleService-Info.plist */,
+				3F71A4C2281DC9ED00888D32 /* AddViewController.swift */,
+				3F71A4C4281DCB3600888D32 /* ListViewController.swift */,
+				3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */,
+			);
+			path = SaraSchedules;
+			sourceTree = "<group>";
+		};
+		3FC5B3A827FFB52B002C57C5 /* SaraSchedulesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B3A927FFB52B002C57C5 /* SaraSchedulesTests.swift */,
+			);
+			path = SaraSchedulesTests;
+			sourceTree = "<group>";
+		};
+		3FC5B3B227FFB52B002C57C5 /* SaraSchedulesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B3B327FFB52B002C57C5 /* SaraSchedulesUITests.swift */,
+				3FC5B3B527FFB52B002C57C5 /* SaraSchedulesUITestsLaunchTests.swift */,
+			);
+			path = SaraSchedulesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC5B38E27FFB52A002C57C5 /* SaraSchedules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC5B3B927FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedules" */;
+			buildPhases = (
+				CDD209281835D26931CC790B /* [CP] Check Pods Manifest.lock */,
+				3FC5B38B27FFB52A002C57C5 /* Sources */,
+				3FC5B38C27FFB52A002C57C5 /* Frameworks */,
+				3FC5B38D27FFB52A002C57C5 /* Resources */,
+				E9394849E692223A620BC72D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaraSchedules;
+			productName = SaraSchedules;
+			productReference = 3FC5B38F27FFB52A002C57C5 /* SaraSchedules.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC5B3A427FFB52B002C57C5 /* SaraSchedulesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC5B3BC27FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedulesTests" */;
+			buildPhases = (
+				46536F0D39B371744919BD3C /* [CP] Check Pods Manifest.lock */,
+				3FC5B3A127FFB52B002C57C5 /* Sources */,
+				3FC5B3A227FFB52B002C57C5 /* Frameworks */,
+				3FC5B3A327FFB52B002C57C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC5B3A727FFB52B002C57C5 /* PBXTargetDependency */,
+			);
+			name = SaraSchedulesTests;
+			productName = SaraSchedulesTests;
+			productReference = 3FC5B3A527FFB52B002C57C5 /* SaraSchedulesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC5B3AE27FFB52B002C57C5 /* SaraSchedulesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC5B3BF27FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedulesUITests" */;
+			buildPhases = (
+				C6195C198485B944F37BF102 /* [CP] Check Pods Manifest.lock */,
+				3FC5B3AB27FFB52B002C57C5 /* Sources */,
+				3FC5B3AC27FFB52B002C57C5 /* Frameworks */,
+				3FC5B3AD27FFB52B002C57C5 /* Resources */,
+				97B9C049C763D1800EB9360D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC5B3B127FFB52B002C57C5 /* PBXTargetDependency */,
+			);
+			name = SaraSchedulesUITests;
+			productName = SaraSchedulesUITests;
+			productReference = 3FC5B3AF27FFB52B002C57C5 /* SaraSchedulesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC5B38727FFB52A002C57C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3FC5B38E27FFB52A002C57C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FC5B3A427FFB52B002C57C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FC5B38E27FFB52A002C57C5;
+					};
+					3FC5B3AE27FFB52B002C57C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FC5B38E27FFB52A002C57C5;
+					};
+				};
+			};
+			buildConfigurationList = 3FC5B38A27FFB52A002C57C5 /* Build configuration list for PBXProject "SaraSchedules" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC5B38627FFB52A002C57C5;
+			productRefGroup = 3FC5B39027FFB52A002C57C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC5B38E27FFB52A002C57C5 /* SaraSchedules */,
+				3FC5B3A427FFB52B002C57C5 /* SaraSchedulesTests */,
+				3FC5B3AE27FFB52B002C57C5 /* SaraSchedulesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC5B38D27FFB52A002C57C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC5B39F27FFB52B002C57C5 /* LaunchScreen.storyboard in Resources */,
+				B0042E92281B396C00A4E986 /* GoogleService-Info.plist in Resources */,
+				3FC5B39C27FFB52B002C57C5 /* Assets.xcassets in Resources */,
+				3FC5B39A27FFB52A002C57C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3A327FFB52B002C57C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0042E93281B396C00A4E986 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3AD27FFB52B002C57C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0042E94281B396C00A4E986 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46536F0D39B371744919BD3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaraSchedulesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B9C049C763D1800EB9360D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules-SaraSchedulesUITests/Pods-SaraSchedules-SaraSchedulesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules-SaraSchedulesUITests/Pods-SaraSchedules-SaraSchedulesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules-SaraSchedulesUITests/Pods-SaraSchedules-SaraSchedulesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6195C198485B944F37BF102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaraSchedules-SaraSchedulesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD209281835D26931CC790B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaraSchedules-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9394849E692223A620BC72D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules/Pods-SaraSchedules-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules/Pods-SaraSchedules-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaraSchedules/Pods-SaraSchedules-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC5B38B27FFB52A002C57C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */,
+				3F487D2C281A20370079F20B /* Todo.swift in Sources */,
+				3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */,
+				3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */,
+				3F71A4C3281DC9ED00888D32 /* AddViewController.swift in Sources */,
+				3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */,
+				3FC5B39527FFB52A002C57C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3A127FFB52B002C57C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC5B3AA27FFB52B002C57C5 /* SaraSchedulesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC5B3AB27FFB52B002C57C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC5B3B627FFB52B002C57C5 /* SaraSchedulesUITestsLaunchTests.swift in Sources */,
+				3FC5B3B427FFB52B002C57C5 /* SaraSchedulesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC5B3A727FFB52B002C57C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC5B38E27FFB52A002C57C5 /* SaraSchedules */;
+			targetProxy = 3FC5B3A627FFB52B002C57C5 /* PBXContainerItemProxy */;
+		};
+		3FC5B3B127FFB52B002C57C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC5B38E27FFB52A002C57C5 /* SaraSchedules */;
+			targetProxy = 3FC5B3B027FFB52B002C57C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC5B39827FFB52A002C57C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC5B39927FFB52A002C57C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC5B39D27FFB52B002C57C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC5B39E27FFB52B002C57C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC5B3B727FFB52B002C57C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC5B3B827FFB52B002C57C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC5B3BA27FFB52B002C57C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CC561DD37DF883A39F503E /* Pods-SaraSchedules.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaraSchedules/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedules;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC5B3BB27FFB52B002C57C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A9CADCDDE13CDC22B3659B /* Pods-SaraSchedules.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaraSchedules/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedules;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC5B3BD27FFB52B002C57C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03846C06701A69D9DE8B056F /* Pods-SaraSchedulesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedulesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaraSchedules.app/SaraSchedules";
+			};
+			name = Debug;
+		};
+		3FC5B3BE27FFB52B002C57C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DD543589EFCEC46237BFC6 /* Pods-SaraSchedulesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedulesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaraSchedules.app/SaraSchedules";
+			};
+			name = Release;
+		};
+		3FC5B3C027FFB52B002C57C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB0768D7EB5D991B85EC4F5 /* Pods-SaraSchedules-SaraSchedulesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaraSchedules;
+			};
+			name = Debug;
+		};
+		3FC5B3C127FFB52B002C57C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DCC266CB764B58AA26A7CD /* Pods-SaraSchedules-SaraSchedulesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.SaraSchedulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaraSchedules;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC5B38A27FFB52A002C57C5 /* Build configuration list for PBXProject "SaraSchedules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC5B3B727FFB52B002C57C5 /* Debug */,
+				3FC5B3B827FFB52B002C57C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC5B3B927FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC5B3BA27FFB52B002C57C5 /* Debug */,
+				3FC5B3BB27FFB52B002C57C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC5B3BC27FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedulesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC5B3BD27FFB52B002C57C5 /* Debug */,
+				3FC5B3BE27FFB52B002C57C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC5B3BF27FFB52B002C57C5 /* Build configuration list for PBXNativeTarget "SaraSchedulesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC5B3C027FFB52B002C57C5 /* Debug */,
+				3FC5B3C127FFB52B002C57C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC5B38727FFB52A002C57C5 /* Project object */;
+}

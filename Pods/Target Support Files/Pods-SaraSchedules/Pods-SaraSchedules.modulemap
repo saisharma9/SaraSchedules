@@ -1,0 +1,6 @@
+framework module Pods_SaraSchedules {
+  umbrella header "Pods-SaraSchedules-umbrella.h"
+
+  export *
+  module * { export * }
+}
