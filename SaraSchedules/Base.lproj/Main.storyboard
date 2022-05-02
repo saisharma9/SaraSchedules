@@ -31,7 +31,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="showListsBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orw-83-ncF"/>
+                                            <segue destination="9g2-ae-czU" kind="show" id="9Pt-v9-YxR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjz-j2-kZH">
@@ -46,7 +46,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="addBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LtS-RY-iyg"/>
+                                            <segue destination="Iry-68-AtA" kind="show" id="nTU-GL-P7T"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,12 +72,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Na-go-Reh"/>
-                    <connections>
-                        <outlet property="addTaskBtn" destination="Zjz-j2-kZH" id="Qil-kx-8pl"/>
-                        <outlet property="showListsBtn" destination="KaC-jO-lJe" id="BBw-vh-Q16"/>
-                        <segue destination="Iry-68-AtA" kind="show" identifier="addView" id="kJG-9T-2L9"/>
-                        <segue destination="9g2-ae-czU" kind="show" identifier="showLists" id="NMG-Sq-AVe"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
