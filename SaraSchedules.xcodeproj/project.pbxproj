@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		258B35066A892376FCF78FCA /* Pods_SaraSchedules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EC4B9C7319C26898F997CF /* Pods_SaraSchedules.framework */; };
-		3F487D2C281A20370079F20B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F487D2B281A20370079F20B /* Todo.swift */; };
 		3F71A4C3281DC9ED00888D32 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C2281DC9ED00888D32 /* AddViewController.swift */; };
 		3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C4281DCB3600888D32 /* ListViewController.swift */; };
 		3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */; };
+		3F9230D42820A40F00DD7D3A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9230D32820A40F00DD7D3A /* Tasks.swift */; };
 		3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */; };
 		3FC5B39527FFB52A002C57C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */; };
 		3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */; };
@@ -49,10 +49,10 @@
 		03846C06701A69D9DE8B056F /* Pods-SaraSchedulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedulesTests.debug.xcconfig"; path = "Target Support Files/Pods-SaraSchedulesTests/Pods-SaraSchedulesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		15DD543589EFCEC46237BFC6 /* Pods-SaraSchedulesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraSchedulesTests.release.xcconfig"; path = "Target Support Files/Pods-SaraSchedulesTests/Pods-SaraSchedulesTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D1ED7BE30C8F8B88CDAE27A /* Pods_SaraSchedules_SaraSchedulesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraSchedules_SaraSchedulesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F487D2B281A20370079F20B /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		3F71A4C2281DC9ED00888D32 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		3F71A4C4281DCB3600888D32 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3F9230D32820A40F00DD7D3A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		3FC5B38F27FFB52A002C57C5 /* SaraSchedules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraSchedules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		3F9230D22820A39300DD7D3A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3F487D2B281A20370079F20B /* Todo.swift */,
+				3F9230D32820A40F00DD7D3A /* Tasks.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -451,9 +451,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */,
-				3F487D2C281A20370079F20B /* Todo.swift in Sources */,
 				3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */,
 				3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */,
+				3F9230D42820A40F00DD7D3A /* Tasks.swift in Sources */,
 				3F71A4C3281DC9ED00888D32 /* AddViewController.swift in Sources */,
 				3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */,
 				3FC5B39527FFB52A002C57C5 /* SceneDelegate.swift in Sources */,
