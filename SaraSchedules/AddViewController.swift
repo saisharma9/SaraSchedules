@@ -18,6 +18,11 @@ class AddViewController: UIViewController {
 
     }
     
+    func clearFields(){
+        titleTextField.text = nil
+        reminderTextView.text = nil
+    }
+    
     func unwindToDashBoard(){
         performSegue(withIdentifier: "backToHome", sender: self)
     }
@@ -35,7 +40,7 @@ class AddViewController: UIViewController {
             let errorAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
             
             errorAlert.addAction(UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: { (ACTION) in
-                
+                self.clearFields()
                 //self.unwindToDashBoard()
             }))
             self.present(errorAlert, animated: true, completion: nil)
@@ -55,4 +60,9 @@ class AddViewController: UIViewController {
             self.navigateAlert(title: "Success", message: "Uploaded to Database successfully")
         }
     }
+    
+    @IBAction func SaveBtnClicked(_ sender: UIBarButtonItem) {
+        uploadToFirebase()
+    }
+    
 }
