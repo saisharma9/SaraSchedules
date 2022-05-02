@@ -8,7 +8,9 @@
 import UIKit
  
 class HomeViewController: UIViewController {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    @IBOutlet weak var addTaskBtn: UIButton!
+    @IBOutlet weak var showListsBtn: UIButton!
+    //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        return todo.count
 //    }
 //
@@ -27,7 +29,16 @@ class HomeViewController: UIViewController {
 //        taskTableViewOutlet.dataSource = self
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
+    @IBAction func addBtnClicked(_ sender: UIButton) {
+        performSegue(withIdentifier: "addView", sender: self)
+    }
+    
+    @IBAction func showListsBtnClicked(_ sender: UIButton) {
+        performSegue(withIdentifier: "showLists", sender: self)
+    }
+    
+    
+    //    override func viewDidAppear(_ animated: Bool) {
 //        taskTableViewOutlet.reloadData()
 //    }
     
