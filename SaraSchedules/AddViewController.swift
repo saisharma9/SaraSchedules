@@ -6,15 +6,17 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseFirestore
+import FirebaseDatabase
+//import FirebaseFirestore
 
 class AddViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var reminderTextView: UITextView!
+    var dbReference: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dbReference = Database.database().reference()
 
     }
     
@@ -41,28 +43,21 @@ class AddViewController: UIViewController {
             
             errorAlert.addAction(UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: { (ACTION) in
                 self.clearFields()
-                //self.unwindToDashBoard()
+                self.dismiss(animated: true, completion: nil)
             }))
             self.present(errorAlert, animated: true, completion: nil)
         }
 
     func uploadToFirebase(){
         let taskTitle = titleTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-        let taskDescription = reminderTextView.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-        
-        let db = Firestore.firestore()
-        db.collection("RemindersDB").addDocument(data: ["Title" : taskTitle,
-                                                        "Task" : taskDescription
-                                                       ]) { (error) in
-            if error != nil {
-                self.messageAlert(title: "Data fetch Error", message: "We have experienced an error while fetching your data. Please try again.")
-            }
-            self.navigateAlert(title: "Success", message: "Uploaded to Database successfully")
-        }
+        let taskDescription = reminderTextView.text!.trimmingCharacters(in: .whitespaces)
+        dbReference?.child("Tasks").childByAutoId().setValue(["Title":taskTitle,
+                                                              "Description":taskDescription])
     }
     
     @IBAction func SaveBtnClicked(_ sender: UIBarButtonItem) {
         uploadToFirebase()
+        navigateAlert(title: "Success", message: "Uploaded to database successfully.")
     }
     
 }
