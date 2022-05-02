@@ -126,6 +126,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3F9230D02820A35B00DD7D3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */,
+				3F71A4C2281DC9ED00888D32 /* AddViewController.swift */,
+				3F71A4C4281DCB3600888D32 /* ListViewController.swift */,
+				3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F9230D12820A37500DD7D3A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */,
+				3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3F9230D22820A39300DD7D3A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F487D2B281A20370079F20B /* Todo.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3FC5B38627FFB52A002C57C5 = {
 			isa = PBXGroup;
 			children = (
@@ -151,18 +179,14 @@
 		3FC5B39127FFB52A002C57C5 /* SaraSchedules */ = {
 			isa = PBXGroup;
 			children = (
-				3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */,
-				3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */,
-				3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */,
+				3F9230D22820A39300DD7D3A /* Helpers */,
+				3F9230D12820A37500DD7D3A /* Delegates */,
+				3F9230D02820A35B00DD7D3A /* Controllers */,
 				3FC5B39827FFB52A002C57C5 /* Main.storyboard */,
 				3FC5B39B27FFB52B002C57C5 /* Assets.xcassets */,
 				3FC5B39D27FFB52B002C57C5 /* LaunchScreen.storyboard */,
 				3FC5B3A027FFB52B002C57C5 /* Info.plist */,
-				3F487D2B281A20370079F20B /* Todo.swift */,
 				B0042E91281B396C00A4E986 /* GoogleService-Info.plist */,
-				3F71A4C2281DC9ED00888D32 /* AddViewController.swift */,
-				3F71A4C4281DCB3600888D32 /* ListViewController.swift */,
-				3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */,
 			);
 			path = SaraSchedules;
 			sourceTree = "<group>";
