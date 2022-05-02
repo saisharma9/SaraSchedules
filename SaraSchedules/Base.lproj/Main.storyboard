@@ -31,7 +31,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="9g2-ae-czU" kind="show" identifier="listSegue" id="Hnr-FC-l1T"/>
+                                            <action selector="showListsBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orw-83-ncF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjz-j2-kZH">
@@ -46,7 +46,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="Iry-68-AtA" kind="show" id="OKy-1N-xIO"/>
+                                            <action selector="addBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LtS-RY-iyg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,6 +72,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Na-go-Reh"/>
+                    <connections>
+                        <outlet property="addTaskBtn" destination="Zjz-j2-kZH" id="Qil-kx-8pl"/>
+                        <outlet property="showListsBtn" destination="KaC-jO-lJe" id="BBw-vh-Q16"/>
+                        <segue destination="Iry-68-AtA" kind="show" identifier="addView" id="kJG-9T-2L9"/>
+                        <segue destination="9g2-ae-czU" kind="show" identifier="showLists" id="NMG-Sq-AVe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,6 +189,7 @@
                         <color key="backgroundColor" red="0.59377204405231743" green="0.7693973183631897" blue="0.53361949391833885" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="L0v-7l-pEv" firstAttribute="trailing" secondItem="2Ud-0c-SEL" secondAttribute="trailing" constant="20" id="AQ0-If-P8B"/>
                             <constraint firstItem="uLq-Xq-f74" firstAttribute="centerX" secondItem="tg3-lp-GqE" secondAttribute="centerX" id="ARz-tV-5fG"/>
                             <constraint firstItem="L0v-7l-pEv" firstAttribute="trailing" secondItem="uLq-Xq-f74" secondAttribute="trailing" constant="20" id="Gmf-eI-vOx"/>
                             <constraint firstItem="2Ud-0c-SEL" firstAttribute="top" secondItem="L0v-7l-pEv" secondAttribute="top" constant="54" id="KF6-3c-ka5"/>
@@ -191,6 +198,7 @@
                             <constraint firstItem="uLq-Xq-f74" firstAttribute="top" secondItem="2Ud-0c-SEL" secondAttribute="bottom" constant="63" id="sv0-gG-B4L"/>
                             <constraint firstItem="2Ud-0c-SEL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="L0v-7l-pEv" secondAttribute="leading" id="xkQ-Qe-VoK"/>
                             <constraint firstItem="L0v-7l-pEv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2Ud-0c-SEL" secondAttribute="trailing" id="yVa-IB-kni"/>
+                            <constraint firstItem="2Ud-0c-SEL" firstAttribute="leading" secondItem="L0v-7l-pEv" secondAttribute="leading" constant="20" id="yh1-fe-g1n"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VfJ-xr-IKb">
