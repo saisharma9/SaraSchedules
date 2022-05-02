@@ -45,6 +45,9 @@
                                         <buttonConfiguration key="configuration" style="gray" image="plus" catalog="system">
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Iry-68-AtA" kind="show" id="OKy-1N-xIO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.30196079609999998" green="0.59215688710000003" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -69,9 +72,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Na-go-Reh"/>
-                    <connections>
-                        <segue destination="Iry-68-AtA" kind="show" identifier="addView" id="weQ-ze-VHh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -196,6 +196,9 @@
                     <navigationItem key="navigationItem" id="VfJ-xr-IKb">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="8KX-Iz-Imc">
                             <color key="tintColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <action selector="SaveBtnClicked:" destination="Iry-68-AtA" id="BrT-bl-JTo"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
