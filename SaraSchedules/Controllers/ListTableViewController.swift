@@ -23,10 +23,10 @@ class ListTableViewController: UITableViewController {
                     let task = Tasks()
                     let childSnapshot = child as! DataSnapshot
                     if childSnapshot.hasChild("Title") {
-                        task.Title = childSnapshot.childSnapshot(forPath: "Title").value as! String
+                        task.Title = (childSnapshot.childSnapshot(forPath: "Title").value as! String)
                     }
                     if childSnapshot.hasChild("Description") {
-                        task.Description = childSnapshot.childSnapshot(forPath: "Description").value as! String
+                        task.Description = (childSnapshot.childSnapshot(forPath: "Description").value as! String)
                     }
                     self.tasks.append(task)
                 }
