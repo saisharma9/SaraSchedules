@@ -9,9 +9,13 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var reminderTextView: UITextView!
+    var Description: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        reminderTextView.text! = Description!
         // Do any additional setup after loading the view.
     }
     
