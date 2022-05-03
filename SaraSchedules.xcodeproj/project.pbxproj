@@ -12,6 +12,7 @@
 		3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C4281DCB3600888D32 /* ListViewController.swift */; };
 		3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */; };
 		3F9230D42820A40F00DD7D3A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9230D32820A40F00DD7D3A /* Tasks.swift */; };
+		3F9230D62820D6BC00DD7D3A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9230D52820D6BC00DD7D3A /* ListTableViewController.swift */; };
 		3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */; };
 		3FC5B39527FFB52A002C57C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */; };
 		3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B39627FFB52A002C57C5 /* HomeViewController.swift */; };
@@ -53,6 +54,7 @@
 		3F71A4C4281DCB3600888D32 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3F9230D32820A40F00DD7D3A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		3F9230D52820D6BC00DD7D3A /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		3FC5B38F27FFB52A002C57C5 /* SaraSchedules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraSchedules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC5B39227FFB52A002C57C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC5B39427FFB52A002C57C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				3F71A4C2281DC9ED00888D32 /* AddViewController.swift */,
 				3F71A4C4281DCB3600888D32 /* ListViewController.swift */,
 				3F71A4C6281DCC5D00888D32 /* InfoViewController.swift */,
+				3F9230D52820D6BC00DD7D3A /* ListTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				3FC5B39727FFB52A002C57C5 /* HomeViewController.swift in Sources */,
 				3F71A4C5281DCB3600888D32 /* ListViewController.swift in Sources */,
 				3F71A4C7281DCC5D00888D32 /* InfoViewController.swift in Sources */,
+				3F9230D62820D6BC00DD7D3A /* ListTableViewController.swift in Sources */,
 				3F9230D42820A40F00DD7D3A /* Tasks.swift in Sources */,
 				3F71A4C3281DC9ED00888D32 /* AddViewController.swift in Sources */,
 				3FC5B39327FFB52A002C57C5 /* AppDelegate.swift in Sources */,
