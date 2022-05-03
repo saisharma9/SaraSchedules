@@ -11,14 +11,10 @@ import Firebase
 class ListTableViewController: UITableViewController {
 
     var tasks = [Tasks]()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.reloadData()
-        
+    
+    @IBOutlet weak var tasksTableView: UITableView!
+    
+    func fetchDataFromDatabase(){
         let dbReadReference = Database.database().reference()
         
         dbReadReference.child("Tasks").observe(.value) { (snapshot) in
@@ -36,12 +32,15 @@ class ListTableViewController: UITableViewController {
                 }
             }
         }
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+    }
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tasksTableView.dataSource = self
+        tasksTableView.delegate = self
+        tasksTableView.reloadData()
+        fetchDataFromDatabase()
     }
 
     // MARK: - Table view data source
@@ -60,10 +59,9 @@ class ListTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "taskTitle")
-        let task = self.tasks[indexPath.row]
-        cell?.textLabel!.text = task.Title
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "taskTitle", for: indexPath)
+        cell.textLabel!.text = tasks[indexPath.row].Title
+        return cell
     }
 
     /*
@@ -101,14 +99,15 @@ class ListTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let indexPath = self.tableView.indexPathForSelectedRow
+        let id = segue.identifier
+        if id == "displayTask"{
+            let destination = segue.destination as! InfoViewController
+            destination.Description = tasks[indexPath!.row].Description
+        }
     }
-    */
 
 }
