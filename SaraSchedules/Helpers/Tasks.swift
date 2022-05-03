@@ -8,4 +8,8 @@
 import Foundation
 import UIKit
 
+class Tasks {
+    var Title: String?
+    var Description: String?
+}
 
