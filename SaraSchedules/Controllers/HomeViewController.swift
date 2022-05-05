@@ -13,4 +13,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let segueID = segue.identifier
+        if segueID == "showTasksTable"{
+            let dest = segue.destination as! ListViewController
+        }
+    }
 }
