@@ -143,6 +143,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xAZ-6F-7cd" kind="show" identifier="displayTask" id="8pn-ZX-nGO"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -163,7 +166,6 @@
                     <navigationItem key="navigationItem" id="SpI-TO-q3b"/>
                     <connections>
                         <outlet property="tasksTableView" destination="gh7-Mu-MZP" id="9IB-mX-Snw"/>
-                        <segue destination="xAZ-6F-7cd" kind="show" identifier="displayTask" id="cSm-Pq-4Kp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VGW-Fg-ub7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
