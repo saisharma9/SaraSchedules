@@ -24,6 +24,11 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         fetchDataFromDatabase()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tasksTableView.deselectRow(at: indexPath, animated: true)
+//        performSegue(withIdentifier: "displayTask", sender: self)
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tasks.count
     }
@@ -51,19 +56,14 @@ class ListViewController: UIViewController,UITableViewDataSource, UITableViewDel
         }
     }
     
-
-
-    
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let indexPath = self.tasksTableView.indexPathForSelectedRow
         let id = segue.identifier
         if id == "displayTask"{
             let destination = segue.destination as! InfoViewController
-            destination.reminderTextView.text = tasks[indexPath!.row].Description
-            print(tasks[indexPath!.row].Description)
+            destination.Description = tasks[tasksTableView.indexPathForSelectedRow!.row].Description
+            destination.title = tasks[tasksTableView.indexPathForSelectedRow!.row].Title
         }
     }
 }
